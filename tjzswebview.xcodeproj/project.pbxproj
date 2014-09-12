@@ -21,8 +21,6 @@
 		77BD76B1196E5697003E7891 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77BD7693196E5697003E7891 /* UIKit.framework */; };
 		77BD76B9196E5697003E7891 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77BD76B7196E5697003E7891 /* InfoPlist.strings */; };
 		77BD76BB196E5697003E7891 /* tjzswebviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BD76BA196E5697003E7891 /* tjzswebviewTests.m */; };
-		77BD76C8196F7E19003E7891 /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BD76C7196F7E19003E7891 /* WelcomeViewController.m */; };
-		77BD76D5196FD999003E7891 /* app21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77BD76D4196FD999003E7891 /* app21.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		77BD768C196E5697003E7891 /* 中国招商网.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "中国招商网.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77BD768C196E5697003E7891 /* 招商网.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "招商网.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77BD768F196E5697003E7891 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		77BD7691196E5697003E7891 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		77BD7693196E5697003E7891 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -55,9 +53,6 @@
 		77BD76B6196E5697003E7891 /* tjzswebviewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tjzswebviewTests-Info.plist"; sourceTree = "<group>"; };
 		77BD76B8196E5697003E7891 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		77BD76BA196E5697003E7891 /* tjzswebviewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tjzswebviewTests.m; sourceTree = "<group>"; };
-		77BD76C6196F7E19003E7891 /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
-		77BD76C7196F7E19003E7891 /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
-		77BD76D4196FD999003E7891 /* app21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = app21.jpg; path = resources/app21.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +92,7 @@
 		77BD768D196E5697003E7891 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				77BD768C196E5697003E7891 /* 中国招商网.app */,
+				77BD768C196E5697003E7891 /* 招商网.app */,
 				77BD76AD196E5697003E7891 /* tjzswebviewTests.xctest */,
 			);
 			name = Products;
@@ -117,9 +112,6 @@
 		77BD7695196E5697003E7891 /* tjzswebview */ = {
 			isa = PBXGroup;
 			children = (
-				77BD76D3196FD98E003E7891 /* Resource */,
-				77BD76C6196F7E19003E7891 /* WelcomeViewController.h */,
-				77BD76C7196F7E19003E7891 /* WelcomeViewController.m */,
 				77BD769E196E5697003E7891 /* AppDelegate.h */,
 				77BD769F196E5697003E7891 /* AppDelegate.m */,
 				77BD76A1196E5697003E7891 /* Main.storyboard */,
@@ -160,20 +152,12 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		77BD76D3196FD98E003E7891 /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				77BD76D4196FD999003E7891 /* app21.jpg */,
-			);
-			name = Resource;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		77BD768B196E5697003E7891 /* 中国招商网 */ = {
+		77BD768B196E5697003E7891 /* 招商网 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 77BD76BE196E5697003E7891 /* Build configuration list for PBXNativeTarget "中国招商网" */;
+			buildConfigurationList = 77BD76BE196E5697003E7891 /* Build configuration list for PBXNativeTarget "招商网" */;
 			buildPhases = (
 				77BD7688196E5697003E7891 /* Sources */,
 				77BD7689196E5697003E7891 /* Frameworks */,
@@ -183,9 +167,9 @@
 			);
 			dependencies = (
 			);
-			name = "中国招商网";
+			name = "招商网";
 			productName = tjzswebview;
-			productReference = 77BD768C196E5697003E7891 /* 中国招商网.app */;
+			productReference = 77BD768C196E5697003E7891 /* 招商网.app */;
 			productType = "com.apple.product-type.application";
 		};
 		77BD76AC196E5697003E7891 /* tjzswebviewTests */ = {
@@ -233,7 +217,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				77BD768B196E5697003E7891 /* 中国招商网 */,
+				77BD768B196E5697003E7891 /* 招商网 */,
 				77BD76AC196E5697003E7891 /* tjzswebviewTests */,
 			);
 		};
@@ -244,7 +228,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77BD76D5196FD999003E7891 /* app21.jpg in Resources */,
 				77BD76A8196E5697003E7891 /* Images.xcassets in Resources */,
 				77BD769A196E5697003E7891 /* InfoPlist.strings in Resources */,
 				77BD76A3196E5697003E7891 /* Main.storyboard in Resources */,
@@ -267,7 +250,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				77BD76A6196E5697003E7891 /* ViewController.m in Sources */,
-				77BD76C8196F7E19003E7891 /* WelcomeViewController.m in Sources */,
 				77BD76A0196E5697003E7891 /* AppDelegate.m in Sources */,
 				77BD769C196E5697003E7891 /* main.m in Sources */,
 			);
@@ -286,7 +268,7 @@
 /* Begin PBXTargetDependency section */
 		77BD76B3196E5697003E7891 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 77BD768B196E5697003E7891 /* 中国招商网 */;
+			target = 77BD768B196E5697003E7891 /* 招商网 */;
 			targetProxy = 77BD76B2196E5697003E7891 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -402,7 +384,7 @@
 				INFOPLIST_FILE = "tjzswebview/tjzswebview-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "1504de29-d636-4286-88a9-f078240c9730";
+				PROVISIONING_PROFILE = "dda68642-e2f8-4bbf-b26b-52eb6bf7c116";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -420,7 +402,7 @@
 				INFOPLIST_FILE = "tjzswebview/tjzswebview-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "1504de29-d636-4286-88a9-f078240c9730";
+				PROVISIONING_PROFILE = "dda68642-e2f8-4bbf-b26b-52eb6bf7c116";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -480,7 +462,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		77BD76BE196E5697003E7891 /* Build configuration list for PBXNativeTarget "中国招商网" */ = {
+		77BD76BE196E5697003E7891 /* Build configuration list for PBXNativeTarget "招商网" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				77BD76BF196E5697003E7891 /* Debug */,

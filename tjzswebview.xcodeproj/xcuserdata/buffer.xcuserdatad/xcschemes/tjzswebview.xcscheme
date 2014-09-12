@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "77BD768B196E5697003E7891"
                BuildableName = "&#20013;&#22269;&#25307;&#21830;&#32593;.app"
-               BlueprintName = "&#20013;&#22269;&#25307;&#21830;&#32593;"
+               BlueprintName = "&#25307;&#21830;&#32593;"
                ReferencedContainer = "container:tjzswebview.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -44,7 +44,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "77BD768B196E5697003E7891"
             BuildableName = "&#20013;&#22269;&#25307;&#21830;&#32593;.app"
-            BlueprintName = "&#20013;&#22269;&#25307;&#21830;&#32593;"
+            BlueprintName = "&#25307;&#21830;&#32593;"
             ReferencedContainer = "container:tjzswebview.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,7 +63,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "77BD768B196E5697003E7891"
             BuildableName = "&#20013;&#22269;&#25307;&#21830;&#32593;.app"
-            BlueprintName = "&#20013;&#22269;&#25307;&#21830;&#32593;"
+            BlueprintName = "&#25307;&#21830;&#32593;"
             ReferencedContainer = "container:tjzswebview.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -81,7 +81,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "77BD768B196E5697003E7891"
             BuildableName = "&#20013;&#22269;&#25307;&#21830;&#32593;.app"
-            BlueprintName = "&#20013;&#22269;&#25307;&#21830;&#32593;"
+            BlueprintName = "&#25307;&#21830;&#32593;"
             ReferencedContainer = "container:tjzswebview.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
